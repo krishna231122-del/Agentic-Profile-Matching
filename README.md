@@ -38,26 +38,28 @@ An LLM-powered recruiting assistant built with **LangGraph** that automates resu
   - Concrete improvement suggestions for borderline candidates
 
 ---
+##Project Structure
+## 📁 Project Structure
 
+```text
 your_project/
 │
-├── main.py                       # Entry point — run this to    start the agent
-├── matching_agent.py              # LangGraph agent: state, tools, nodes, graph
-├── filesystem_mcp_server.py       # MCP server exposing file system tools
+├── main.py                    # Entry point — run this to start the agent
+├── matching_agent.py          # LangGraph agent: state, tools, nodes, graph
+├── filesystem_mcp_server.py   # MCP server exposing file system tools
 │
-├── Resume_dir/                    # Candidate resumes (.txt, .pdf, .docx)
+├── Resume_dir/                # Candidate resumes (.txt, .pdf, .docx)
 │
-├── chroma_resume_db/               # Auto-created vector DB (gitignored)
+├── chroma_resume_db/          # Auto-created vector DB (gitignored)
 │
-├── reports/                        # Auto-created saved reports (gitignored)
+├── reports/                   # Auto-created saved reports (gitignored)
 │
-├── .env                             # API keys (gitignored, not committed)
-├── .env.example                     # Template for required env vars
+├── .env                       # API keys (gitignored, not committed)
+├── .env.example               # Template for required environment variables
 ├── .gitignore
 ├── requirements.txt
 └── README.md
-
----
+```
 
 ## Prerequisites
 
