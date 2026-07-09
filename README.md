@@ -46,7 +46,6 @@ your_project/
 │
 ├── main.py                    # Entry point — run this to start the agent
 ├── matching_agent.py          # LangGraph agent: state, tools, nodes, graph
-├── filesystem_mcp_server.py   # MCP server exposing file system tools
 │
 ├── Resume_dir/                # Candidate resumes (.txt, .pdf, .docx)
 │
