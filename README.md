@@ -14,7 +14,7 @@ An LLM-powered recruiting assistant built with **LangGraph** that automates resu
   - Parsed job requirements (must-have / nice-to-have)
   - Candidate pool, shortlist, and ranking reasoning at every round
 - **Tools:**
-  - File system tools (`list_resumes`, `read_resume`, `save_report`, `batch_process`, `watch_directory`) — served via MCP
+  - File system tools (`list_resumes`, `read_resume`, `save_report`, `batch_process`, `watch_directory`)
   - `rag_search` — semantic resume search (Mistral embeddings + Chroma vector DB)
   - `extract_requirements(jd)` — parses must-have vs nice-to-have
   - `compare_candidates(candidate_ids)` — head-to-head comparison
